@@ -2,7 +2,7 @@
 **Programação para Dispositivos Móveis 2019/2 - FACOM - UFMS**
 **Sob a orientação da Prof.ª Dra. Ana Karina Dourado Salina de Oliveira**
 
-## Cescrição 
+## Descrição 
 A aplicação Android Weggo tem o intuito de ser uma plataforma que reúne todas as funcionalidades necessárias para a divulgação, consulta e venda de ingressos.
 
 ## Equipe
