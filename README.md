@@ -1,40 +1,27 @@
-# Aplicação Android Weggo - Criação e Venda de Ingressos
+# Aplicação Android fófócom - Aplicativo de mensagen 
 **Programação para Dispositivos Móveis 2019/2 - FACOM - UFMS**
 **Sob a orientação da Prof.ª Dra. Ana Karina Dourado Salina de Oliveira**
 
 ## Descrição 
-A aplicação Android Weggo tem o intuito de ser uma plataforma que reúne todas as funcionalidades necessárias para a divulgação, consulta e venda de ingressos.
+A aplicação Android fófócom tem o intuito de ser uma plataforma de envio de mensagens semelhante a rede social WahtsApp.
 ## Requisitos de Software
 
 RF.1  O sistema deve permitir que o usuário crie uma conta no sistema;
 
 RF.2  O sistema deve permitir que o usuário realize login e logout no sistema;
 
-RF.3  O sistema deve permitir que o usuário crie, altere, delete e visualize eventos;
+RF.3  O sistema deve permitir que o usuário receba e envia solicitação de amizade;
 
-RF.4  O sistema deve permitir que o usuário busque por eventos;
+RF.4  O sistema deve permitir que o usuário veja o perfil de outras pessoas;
 
-RF.5  O sistema deve permitir que o usuário use filtros para buscar eventos;
+RF.5  O sistema deve permitir que o usuário envie mensagens individuais ou em grupo;
 
-RF.6  O sistema deve permitir que o usuário controle a privacidade de seus eventos;
+RF.6  O sistema deve permitir que o usuário busque contatos em sua lista de contatos;
 
-RF.7  O sistema deve permitir que o usuário envie convites de eventos;
-
-RF.8  Ao criar um evento, o sistema deve permitir que o usuário adicione informações sobre o evento, tais como: endereço, data, hora, imagens, nome do evento, descrição, lista de convidados e tipo de ingresso;
-
-RF.9 O sistema deve tratar vendas de ingressos;
-
-RF.10 O sistema deve permitir que o usuário envie solicitações de amizades para outros usuários;
-
-RF.11 O sistema deve mandar notificações de convites;
-
-RF.12 O sistema deve permitir que o usuário confirme presença em eventos;
-
-RF.13 O sistema deve mandar notificação de eventos próximos;
-
-RF.14 O sistema deve permitir que o usuário altere seu nome de usuário;
-
-RF.15 O sistema deve permitir que o usuário salve eventos como favorito;
+## Tecnologias
+1. Linguagen de Programação: Java e xml
+2. Servidor: Firebase
+3. Banco de Dados: Firebase
 
 ## Equipe
 1. César Augusto Sampaio de Mello - [@Cesaramello](https://github.com/Cesaramello)
