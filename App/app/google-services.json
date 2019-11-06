@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "305843750900",
+    "firebase_url": "https://trabmobile-9aedf.firebaseio.com",
+    "project_id": "trabmobile-9aedf",
+    "storage_bucket": "trabmobile-9aedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305843750900:android:45a79d08bc0beeb1e21ba1",
+        "android_client_info": {
+          "package_name": "com.example.trabmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305843750900-0tuuas9krjtoje3bfs9aaifgh8t89ghn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trabmobile",
+            "certificate_hash": "0d911e51fa9a4d9697e3c3dda0ff096d417900d4"
+          }
+        },
+        {
+          "client_id": "305843750900-mp3stsdi643bllq59h73s0r4utsbttra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4yL5DR5vOo9xHyBxGmgM8mcDk4sX4_ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305843750900-mp3stsdi643bllq59h73s0r4utsbttra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
