@@ -32,7 +32,13 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        InitializeFields();
+        CreateAccountButton = (Button) findViewById(R.id.register_button);
+        UserEmail = (EditText) findViewById(R.id.register_email);
+        UserPassword = (EditText) findViewById(R.id.register_password);
+        AlreadyHaveAccountLink = (TextView) findViewById(R.id.alread_have_account_Link);
+
+        loadingBar = new ProgressDialog(this);
+
         mAuth = FirebaseAuth.getInstance();
 
         AlreadyHaveAccountLink.setOnClickListener(new View.OnClickListener() {
@@ -80,15 +86,6 @@ public class RegisterActivity extends AppCompatActivity {
                 }
             }
         });
-    }
-
-    private void InitializeFields() {
-        CreateAccountButton = (Button) findViewById(R.id.register_button);
-        UserEmail = (EditText) findViewById(R.id.register_email);
-        UserPassword = (EditText) findViewById(R.id.register_password);
-        AlreadyHaveAccountLink = (TextView) findViewById(R.id.need_new_account_Link);
-
-        loadingBar = new ProgressDialog(this);
     }
 
 }
