@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "305843750900-nap458g3ng11jnuu812912c741phd9au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trabmobile",
+            "certificate_hash": "35a9917d13d440aacbaef2bfbeda803dc0cf68d7"
+          }
+        },
+        {
           "client_id": "305843750900-0tuuas9krjtoje3bfs9aaifgh8t89ghn.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
