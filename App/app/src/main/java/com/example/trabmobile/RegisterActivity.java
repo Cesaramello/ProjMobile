@@ -35,7 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
         CreateAccountButton = (Button) findViewById(R.id.register_button);
         UserEmail = (EditText) findViewById(R.id.register_email);
         UserPassword = (EditText) findViewById(R.id.register_password);
-        AlreadyHaveAccountLink = (TextView) findViewById(R.id.alread_have_account_Link);
+        AlreadyHaveAccountLink = (TextView) findViewById(R.id.already_have_account_link);
 
         loadingBar = new ProgressDialog(this);
 
