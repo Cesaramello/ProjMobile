@@ -4,8 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:background="@color/colorTitulo"
+    tools:context=".MainActivity">
+=======
     android:background="@color/colorAccent"
     tools:context="MainActivity">
+>>>>>>> f0a2b7355f7f30f3641bed5d1e95c5b18f860db2
 
 
 
