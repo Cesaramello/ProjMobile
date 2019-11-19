@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity
 
         mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("WhatsApp");
+        getSupportActionBar().setTitle("Fófócom");
 
 
         myViewPager = (ViewPager) findViewById(R.id.main_tabs_pager);
