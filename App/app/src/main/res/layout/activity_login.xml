@@ -46,7 +46,8 @@
                 android:layout_marginLeft="17dp"
                 android:layout_marginRight="17dp"
                 android:drawableLeft="@drawable/email"
-                android:layout_alignParentLeft="true" />
+                android:layout_alignParentLeft="true"
+                android:textColorHint="@color/colorCinza"/>
 
             <EditText
                 android:id="@+id/login_password"
@@ -54,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/login_email"
-                android:hint="Password..."
+                android:hint="Senha..."
                 android:inputType="textPassword"
                 android:background="@drawable/inputs"
                 android:padding="4dp"
@@ -63,7 +64,8 @@
                 android:layout_marginLeft="17dp"
                 android:layout_marginRight="17dp"
                 android:layout_alignParentLeft="true"
-                android:drawableLeft="@drawable/password" />
+                android:drawableLeft="@drawable/password"
+                android:textColorHint="@color/colorCinza"/>
 
             <TextView
                 android:id="@+id/forget_password_link"
@@ -77,7 +79,7 @@
                 android:gravity="end"
                 android:text="Esqueceu a Senha?"
                 android:textAlignment="textEnd"
-                android:textColor="@color/colorCinza"
+                android:textColor="@color/colorBranca"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
@@ -108,7 +110,7 @@
                 android:layout_marginRight="23dp"
                 android:text="Precisa de uma nova conta?"
                 android:textAlignment="center"
-                android:textColor="@color/colorCinza"
+                android:textColor="@color/colorBranca"
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
@@ -124,7 +126,8 @@
                 android:text="ou Logar com seu"
                 android:textAlignment="center"
                 android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/colorCinza"/>
 
             <Button
                 android:id="@+id/phone_login_button"
@@ -164,7 +167,7 @@
                 android:layout_marginRight="127dp"
                 android:layout_marginBottom="85dp"
                 android:text="FóFó"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/colorTitulo"
                 android:textSize="56sp"
                 app:fontFamily="@font/carter_one" />
 
@@ -185,7 +188,7 @@
                 android:layout_marginRight="106dp"
                 android:layout_marginBottom="27dp"
                 android:text="COM"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/colorTitulo"
                 android:textSize="46sp"
                 app:fontFamily="@font/carter_one" />
         </RelativeLayout>
