@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true">
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/background">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -22,11 +23,13 @@
                 android:id="@+id/login_image"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/login_photo"
                 android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:scaleType="fitCenter"
-                android:layout_alignParentLeft="true" />
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-1dp"
+                android:scaleType="fitCenter"/>
 
             <EditText
                 android:id="@+id/login_email"
@@ -66,17 +69,17 @@
                 android:id="@+id/forget_password_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_below="@+id/login_password"
-                android:text="Forget Password ?"
-                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
                 android:layout_marginRight="23dp"
+                android:gravity="end"
+                android:text="Esqueceu a Senha?"
                 android:textAlignment="textEnd"
+                android:textColor="@color/colorCinza"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
-                android:gravity="end" />
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/login_button"
@@ -91,57 +94,100 @@
                 android:textAllCaps="false"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_light"
-                android:background="@drawable/buttons"
+                android:background="@drawable/buttonredondosazul"
                 />
 
             <TextView
                 android:id="@+id/need_new_account_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_below="@+id/login_button"
-                android:text="Need new Account ?"
-                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp"
                 android:layout_marginRight="23dp"
+                android:text="Precisa de uma nova conta?"
                 android:textAlignment="center"
+                android:textColor="@color/colorCinza"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                android:textColor="@color/colorPrimaryDark"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/login_using"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_below="@+id/need_new_account_link"
-                android:text="or Login using your"
-                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="23dp"
+                android:text="ou Logar com seu"
                 android:textAlignment="center"
                 android:textSize="17sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/phone_login_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="276dp"
+                android:layout_height="45dp"
                 android:layout_below="@+id/login_using"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="68dp"
+                android:layout_marginRight="68dp"
+                android:background="@drawable/buttonredondosazulvazado"
                 android:padding="4dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginLeft="19dp"
-                android:layout_marginRight="19dp"
-                android:text="Phone"
+                android:text="Telefone"
                 android:textAllCaps="false"
-                android:textSize="14sp"
                 android:textColor="@android:color/background_light"
-                android:background="@drawable/buttons"
-                android:drawableStart="@drawable/phone"
-                android:drawableLeft="@drawable/phone" />
+                android:textSize="14sp" />
 
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="145dp"
+                android:layout_height="93dp"
+                android:layout_alignBottom="@+id/login_image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="139dp"
+                android:layout_marginLeft="139dp"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="127dp"
+                android:layout_marginRight="127dp"
+                android:layout_marginBottom="85dp"
+                android:text="FóFó"
+                android:textColor="#FFFFFF"
+                android:textSize="56sp"
+                app:fontFamily="@font/carter_one" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="145dp"
+                android:layout_height="93dp"
+                android:layout_alignBottom="@+id/login_image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginLeft="158dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="106dp"
+                android:layout_marginRight="106dp"
+                android:layout_marginBottom="27dp"
+                android:text="COM"
+                android:textColor="#FFFFFF"
+                android:textSize="46sp"
+                app:fontFamily="@font/carter_one" />
         </RelativeLayout>
 
     </ScrollView>
