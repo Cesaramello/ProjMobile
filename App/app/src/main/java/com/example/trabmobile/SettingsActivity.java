@@ -264,7 +264,7 @@ public class SettingsActivity extends AppCompatActivity
                         else
                         {
                             userName.setVisibility(View.VISIBLE);
-                            Toast.makeText(SettingsActivity.this, "Please set & update your profile information...", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SettingsActivity.this, "Por favor atualize suas informaçoes de usuario...", Toast.LENGTH_SHORT).show();
                         }
                     }
 

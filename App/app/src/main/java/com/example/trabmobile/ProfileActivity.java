@@ -122,12 +122,12 @@ public class ProfileActivity extends AppCompatActivity
                             if (request_type.equals("sent"))
                             {
                                 Current_State = "request_sent";
-                                SendMessageRequestButton.setText("Cancel Chat Request");
+                                SendMessageRequestButton.setText("Cancelar pedido de conversa");
                             }
                             else if (request_type.equals("received"))
                             {
                                 Current_State = "request_received";
-                                SendMessageRequestButton.setText("Accept Chat Request");
+                                SendMessageRequestButton.setText("Aceitar pedido de conversa");
 
                                 DeclineMessageRequestButton.setVisibility(View.VISIBLE);
                                 DeclineMessageRequestButton.setEnabled(true);
@@ -151,7 +151,7 @@ public class ProfileActivity extends AppCompatActivity
                                             if (dataSnapshot.hasChild(receiverUserID))
                                             {
                                                 Current_State = "friends";
-                                                SendMessageRequestButton.setText("Remove this Contact");
+                                                SendMessageRequestButton.setText("Remova esse Contato");
                                             }
                                         }
 
@@ -226,7 +226,7 @@ public class ProfileActivity extends AppCompatActivity
                                             {
                                                 SendMessageRequestButton.setEnabled(true);
                                                 Current_State = "new";
-                                                SendMessageRequestButton.setText("Send Message");
+                                                SendMessageRequestButton.setText("Enviar Mensagem");
 
                                                 DeclineMessageRequestButton.setVisibility(View.INVISIBLE);
                                                 DeclineMessageRequestButton.setEnabled(false);
@@ -274,7 +274,7 @@ public class ProfileActivity extends AppCompatActivity
                                                                                 {
                                                                                     SendMessageRequestButton.setEnabled(true);
                                                                                     Current_State = "friends";
-                                                                                    SendMessageRequestButton.setText("Remove this Contact");
+                                                                                    SendMessageRequestButton.setText("Remova esse contato");
 
                                                                                     DeclineMessageRequestButton.setVisibility(View.INVISIBLE);
                                                                                     DeclineMessageRequestButton.setEnabled(false);
@@ -314,7 +314,7 @@ public class ProfileActivity extends AppCompatActivity
                                             {
                                                 SendMessageRequestButton.setEnabled(true);
                                                 Current_State = "new";
-                                                SendMessageRequestButton.setText("Send Message");
+                                                SendMessageRequestButton.setText("Enviar Mensagem");
 
                                                 DeclineMessageRequestButton.setVisibility(View.INVISIBLE);
                                                 DeclineMessageRequestButton.setEnabled(false);
@@ -361,7 +361,7 @@ public class ProfileActivity extends AppCompatActivity
                                                                 {
                                                                     SendMessageRequestButton.setEnabled(true);
                                                                     Current_State = "request_sent";
-                                                                    SendMessageRequestButton.setText("Cancel Chat Request");
+                                                                    SendMessageRequestButton.setText("Cancelar pedido de Conversa");
                                                                 }
                                                             }
                                                         });
