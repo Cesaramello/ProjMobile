@@ -135,11 +135,7 @@ public class ChatActivity extends AppCompatActivity
 
         Calendar calendar = Calendar.getInstance();
 
-        SimpleDateFormat currentDate = new SimpleDateFormat("MMM dd, yyyy");
-        saveCurrentDate = currentDate.format(calendar.getTime());
 
-        SimpleDateFormat currentTime = new SimpleDateFormat("hh:mm a");
-        saveCurrentTime = currentTime.format(calendar.getTime());
     }
 
 
@@ -154,16 +150,10 @@ public class ChatActivity extends AppCompatActivity
                         if (dataSnapshot.child("userState").hasChild("state"))
                         {
                             String state = dataSnapshot.child("userState").child("state").getValue().toString();
-                            String date = dataSnapshot.child("userState").child("date").getValue().toString();
-                            String time = dataSnapshot.child("userState").child("time").getValue().toString();
 
                             if (state.equals("online"))
                             {
                                 userLastSeen.setText("online");
-                            }
-                            else if (state.equals("offline"))
-                            {
-                                userLastSeen.setText("Last Seen: " + date + " " + time);
                             }
                         }
                         else
@@ -247,8 +237,6 @@ public class ChatActivity extends AppCompatActivity
             messageTextBody.put("from", messageSenderID);
             messageTextBody.put("to", messageReceiverID);
             messageTextBody.put("messageID", messagePushID);
-            messageTextBody.put("time", saveCurrentTime);
-            messageTextBody.put("date", saveCurrentDate);
 
             Map messageBodyDetails = new HashMap();
             messageBodyDetails.put(messageSenderRef + "/" + messagePushID, messageTextBody);
