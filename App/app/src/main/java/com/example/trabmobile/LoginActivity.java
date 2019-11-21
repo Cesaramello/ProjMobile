@@ -25,9 +25,9 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private ProgressDialog loadingBar;
 
-    private Button LoginButton, PhoneLoginButton;
+    private Button LoginButton;
     private EditText UserEmail, UserPassword;
-    private TextView NeedNewAccountLink, ForgetPasswordLink;
+    private TextView NeedNewAccountLink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

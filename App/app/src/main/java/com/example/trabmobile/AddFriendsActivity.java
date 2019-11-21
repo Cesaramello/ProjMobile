@@ -23,7 +23,7 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-public class FindFriendsActivity extends AppCompatActivity
+public class AddFriendsActivity extends AppCompatActivity
 {
     private Toolbar mToolbar;
     private RecyclerView FindFriendsRecyclerList;
@@ -49,7 +49,7 @@ public class FindFriendsActivity extends AppCompatActivity
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle("Find Friends");
+        getSupportActionBar().setTitle("Adicionar Amigoos");
     }
 
 
@@ -79,7 +79,7 @@ public class FindFriendsActivity extends AppCompatActivity
                             {
                                 String visit_user_id = getRef(position).getKey();
 
-                                Intent profileIntent = new Intent(FindFriendsActivity.this, ProfileActivity.class);
+                                Intent profileIntent = new Intent(AddFriendsActivity.this, ProfileActivity.class);
                                 profileIntent.putExtra("visit_user_id", visit_user_id);
                                 startActivity(profileIntent);
                             }

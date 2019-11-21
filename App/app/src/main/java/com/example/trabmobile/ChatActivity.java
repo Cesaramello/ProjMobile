@@ -219,7 +219,7 @@ public class ChatActivity extends AppCompatActivity
 
         if (TextUtils.isEmpty(messageText))
         {
-            Toast.makeText(this, "first write your message...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "escreva sua mensagem...", Toast.LENGTH_SHORT).show();
         }
         else
         {
@@ -248,7 +248,7 @@ public class ChatActivity extends AppCompatActivity
                 {
                     if (task.isSuccessful())
                     {
-                        Toast.makeText(ChatActivity.this, "Message Sent Successfully...", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ChatActivity.this, "Mensagem enviada com sucesso..", Toast.LENGTH_SHORT).show();
                     }
                     else
                     {

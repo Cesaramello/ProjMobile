@@ -27,9 +27,8 @@ import com.squareup.picasso.Picasso;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
+
 public class ChatsFragment extends Fragment
 {
     private View PrivateChatsView;
@@ -41,14 +40,13 @@ public class ChatsFragment extends Fragment
 
 
     public ChatsFragment() {
-        // Required empty public constructor
     }
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         PrivateChatsView = inflater.inflate(R.layout.fragment_chats, container, false);
 
 

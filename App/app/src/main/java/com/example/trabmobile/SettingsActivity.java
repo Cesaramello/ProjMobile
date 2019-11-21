@@ -140,8 +140,8 @@ public class SettingsActivity extends AppCompatActivity
 
             if (resultCode == RESULT_OK)
             {
-                loadingBar.setTitle("Set Profile Image");
-                loadingBar.setMessage("Please wait, your profile image is updating...");
+                loadingBar.setTitle("Foto de perfil");
+                loadingBar.setMessage("Por favor espere, sua foto de perfil esta carregando...");
                 loadingBar.setCanceledOnTouchOutside(false);
                 loadingBar.show();
 
@@ -156,7 +156,7 @@ public class SettingsActivity extends AppCompatActivity
                     {
                         if (task.isSuccessful())
                         {
-                            Toast.makeText(SettingsActivity.this, "Profile Image uploaded Successfully...", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SettingsActivity.this, "Imagem de perfil carregada com sucesso...", Toast.LENGTH_SHORT).show();
 
                             final String downloaedUrl = task.getResult().getMetadata().getReference().getDownloadUrl().toString();
 
@@ -168,7 +168,7 @@ public class SettingsActivity extends AppCompatActivity
                                         {
                                             if (task.isSuccessful())
                                             {
-                                                Toast.makeText(SettingsActivity.this, "Image save in Database, Successfully...", Toast.LENGTH_SHORT).show();
+                                                Toast.makeText(SettingsActivity.this, "imagem salva no banco de dados com sucesso", Toast.LENGTH_SHORT).show();
                                                 loadingBar.dismiss();
                                             }
                                             else
@@ -202,11 +202,11 @@ public class SettingsActivity extends AppCompatActivity
 
         if (TextUtils.isEmpty(setUserName))
         {
-            Toast.makeText(this, "Please write your user name first....", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Escreva seu nome primeiro....", Toast.LENGTH_SHORT).show();
         }
         if (TextUtils.isEmpty(setStatus))
         {
-            Toast.makeText(this, "Please write your status....", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Por favor, escreva seu status....", Toast.LENGTH_SHORT).show();
         }
         else
         {
@@ -222,7 +222,7 @@ public class SettingsActivity extends AppCompatActivity
                             if (task.isSuccessful())
                             {
                                 SendUserToMainActivity();
-                                Toast.makeText(SettingsActivity.this, "Profile Updated Successfully...", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SettingsActivity.this, "Perfil atualizado com sucesso...", Toast.LENGTH_SHORT).show();
                             }
                             else
                             {
