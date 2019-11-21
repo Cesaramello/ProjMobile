@@ -67,37 +67,21 @@
                 android:drawableLeft="@drawable/password"
                 android:textColorHint="@color/colorCinza"/>
 
-            <TextView
-                android:id="@+id/forget_password_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/login_password"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginRight="23dp"
-                android:gravity="end"
-                android:text="Esqueceu a Senha?"
-                android:textAlignment="textEnd"
-                android:textColor="@color/colorBranca"
-                android:textSize="17sp"
-                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/forget_password_link"
-                android:padding="4dp"
-                android:layout_marginTop="4dp"
+                android:layout_below="@+id/login_password"
                 android:layout_marginLeft="19dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginRight="19dp"
+                android:background="@drawable/buttonredondosazul"
+                android:padding="4dp"
                 android:text="Login"
                 android:textAllCaps="false"
-                android:textSize="24sp"
                 android:textColor="@android:color/background_light"
-                android:background="@drawable/buttonredondosazul"
-                />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/need_new_account_link"
@@ -114,41 +98,8 @@
                 android:textSize="17sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/login_using"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/need_new_account_link"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="23dp"
-                android:text="ou Logar com seu"
-                android:textAlignment="center"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:textColor="@color/colorCinza"/>
 
-            <Button
-                android:id="@+id/phone_login_button"
-                android:layout_width="276dp"
-                android:layout_height="45dp"
-                android:layout_below="@+id/login_using"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginStart="66dp"
-                android:layout_marginLeft="66dp"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="68dp"
-                android:layout_marginRight="68dp"
-                android:background="@drawable/buttonredondosazulvazado"
-                android:padding="4dp"
-                android:text="Telefone"
-                android:textAllCaps="false"
-                android:textColor="@android:color/background_light"
-                android:textSize="14sp" />
+
 
             <TextView
                 android:id="@+id/textView"
